@@ -60,7 +60,7 @@ const CustomForm = ({ status, message, onValidated }) => {
 
 class Demo extends Component {
   render() {
-    const url = `https://halildogan.lapadi.com/subscribe/post?u=${process.env.client_id}&id=${process.env.form_id}`;
+    const url = `http://localhost:4000/api/v1/subscribe/post?app=${process.env.app_id}&id=${process.env.form_id}`;
     return (
       <div style={{
         justifyContent: "center"

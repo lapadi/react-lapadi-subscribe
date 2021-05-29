@@ -15,7 +15,7 @@ In your app :
 ```jsx
 import LapadiSubscribe from "react-lapadi-subscribe"
 
-const url = "//xxxx.lapadi.com/subscribe/post?u={client_id}&id={form_id}";
+const url = "//lapadi.com/api/v1/subscribe/post?app={app_id}&id={form_id}";
 
 // simplest form (only email)
 const SimpleForm = () => <LapadiSubscribe url={url}/>

@@ -33,12 +33,12 @@ class LapadiSubscribe extends React.Component {
             } else if (data.result !== "success") {
               this.setState({
                 status: "error",
-                message: data.msg
+                message: data.message
               });
             } else {
               this.setState({
                 status: "success",
-                message: data.msg
+                message: data.message
               });
             }
           }
